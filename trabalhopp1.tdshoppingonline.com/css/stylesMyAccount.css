@@ -1,0 +1,219 @@
+.menuMyAccount{
+ 	margin-top: 1%;
+ 	background-color: #ffda00;
+ 	color: black;
+ 	border-radius: 5px;
+ }
+ 
+ .menuMyAccount a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ .menuMyAccount a:link{
+ 	text-decoration: none;
+ }
+
+ .selected{
+ 	border-bottom: 2px solid black;
+ }
+
+ .finishOrder{
+ 	display: none;
+ }
+
+ .flap{
+ 	display: none;
+ }
+
+ .currentFlap{
+ 	display: initial;
+ }
+
+ .rowMyAccountPage a{
+ 	font-size: 2.7vh;
+ }
+
+
+.date{
+	padding-top: 18%;
+	padding-left: 4%;
+}
+
+.ordersContainer{
+	background-color: white !important;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px; 
+}
+
+.ordersPart2 p{
+	margin-top: 4%;
+	font-size: 2.5vh;
+	/*font-weight: bold;*/
+}
+.ordersPart2 a, i{
+	float: right;
+}
+.ordersPart2 a{
+	cursor: pointer;
+	color: #04b6f7 !important;
+	font-size: 10pt;
+}
+
+.ordersPart3 > p{
+	margin-top: 7%;
+}
+
+.ordersPart6 > p{
+	margin-top: 5%;
+}
+
+.ordersPart6 p{
+	margin-left: -25%;
+	font-size: 2.5vh;
+}
+
+.cartContainer .cartPart6 img{
+	height: 4vh !important;
+}
+
+.totalValue{
+	margin-left: 20%;
+	margin-top: 30%;
+	font-weight: bold;
+	font-size: 3vh;
+}
+
+.avatar{
+	margin-top: 10%;
+	height: 75%;
+}
+#avatarImage{
+	width: 100%;
+	height: 75%;
+}
+#inforBar{
+	border: 1px solid grey;
+}
+.btn{
+	cursor: default !important;
+}
+
+.target-nome{
+	font-size: 25px;
+}
+
+.paymentOptions{
+	margin-top: 2%;
+	margin-right: 3%;
+	padding-right: 2%;
+	padding-left: 2%;
+	float: right;
+	background-color: #ffda00;
+	border-radius: 10px;
+}
+
+.ticketPayment{
+	margin: 0 auto;
+	padding-bottom: 2%;
+}
+
+#ticketImg{
+	margin-top: 2%;
+	width: 30%;
+	height:100px;
+	margin-left: 24.5%;
+}
+
+#ticketPaymentText{
+	width: 50%;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: 3%;
+}
+
+.checkOut{
+	background-color: white;
+}
+
+.btn-getTicket{
+	margin: 0;
+	margin-left: 64%;
+}
+
+#creditImg, #debitImg{
+	width: 250px;
+	margin-top: 2%;
+	margin-left: 24.5%;
+}
+
+#successImg{
+	margin-left: 30%;
+	width: 250px;
+}
+
+#shoppingGif{
+	width: 250px;
+	margin-left: 32%;
+	padding-bottom: 3%;
+	cursor: pointer;
+}
+
+#creditPaymentDatas, #debitPaymentDatas{
+	width: 50%;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: 3%;
+	padding-bottom: 3%;
+}
+
+.creditPayment,.debitPayment, .ticketPayment{
+	display: none;
+}
+
+.activePayment{
+	display: initial;
+}
+
+.successOrder{
+	display: none;
+}
+
+input[type='file'] {
+	display: none
+}
+
+#formAvatar{
+	margin-top: -10%;
+	margin-left: 20%;
+}
+
+#formAvatar label {
+	background-color: #ffda00;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	padding: 6px 20px
+} 
+
+#avatarProfile{
+	height: 95%;
+}
+
+#avatarImage{
+	border-radius: 45%;
+}
+
+.btn{
+	cursor: pointer !important;
+}
+
+#firstProgressLine{
+	background-color: black !important;
+	border-radius: 10px;
+}
+
+.circleProgress1{
+	left: 30%;
+	background-color: black !important;
+}

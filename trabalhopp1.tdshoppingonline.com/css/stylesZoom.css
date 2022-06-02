@@ -1,0 +1,127 @@
+ /* CSS PARA O ZOOM*/
+.xzoom-source img, .xzoom-preview img, .xzoom-lens img {
+  display: block;
+  max-width: none;
+  max-height: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* --------------- */
+
+/* xZoom Styles below */
+.xzoom-container { 
+  display: inline-block;
+}
+
+.xzoom-thumbs {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.xzoom { 
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);  
+}
+.xzoom2, .xzoom3, .xzoom4, .xzoom5 {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+/* Thumbs */
+.xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+  border: 1px solid #cecece;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.xzoom-source, .xzoom-hidden {
+  display: block;
+  position: static;
+  float: left;
+  clear: both;
+}
+
+/* Everything out of border is hidden */
+.xzoom-hidden {
+  overflow: hidden;
+}
+
+/* Preview */
+.xzoom-preview {
+  border: 1px solid #888;
+  background: #2f4f4f;
+  box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+}
+
+/* Lens */
+.xzoom-lens {
+  border: 1px solid #555;
+  box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+  cursor: crosshair;
+}
+
+/* Loading */
+.xzoom-loading {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  opacity: .7;
+  background: url(../images/xloading.gif);
+  width: 48px;
+  height: 48px;
+}
+
+/* Additional class that applied to thumb when it is active */
+.xactive {
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+  box-shadow: 0px 0px 3px 0px rgba(74,169,210,1); 
+  border: 1px solid #4aaad2;
+}
+
+/* Caption */
+.xzoom-caption {
+  position: absolute;
+  bottom: -43px;
+  left: 0;
+  background: #000;
+  width: 100%;
+  text-align: left;
+}
+
+.xzoom-caption span {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 10px;
+}
+#product-body ul > li{margin-right:25px;font-weight:lighter;cursor:pointer}
+#product-body li.active{border-bottom:3px solid silver;}
+
+.item-photo{display:flex;justify-content:center;align-items:center;border-right:1px solid #f6f6f6;}
+.menu-items{list-style-type:none;font-size:11px;display:inline-flex;margin-bottom:0;margin-top:20px}
+.btn-success{width:100%;border-radius:0;}
+.section{width:100%;margin-right:5px;padding:2px;padding-left:15px;padding-right:15px;background:#ebf1f4}
+.title-price{margin-top:30px;margin-bottom:0;color:black}
+.title-attr{margin-top:0;margin-bottom:0;color:black;}
+.btn-minus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0;}
+.btn-plus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0;}
+#product-body div.section > div {width:100%;display:inline-flex;}
+#product-body div.section > div > input {margin:0;padding-left:5px;font-size:10px;padding-right:5px;max-width:18%;text-align:center;}
+.attr,.attr2{cursor:pointer;margin-right:5px;height:20px;font-size:10px;padding:2px;border:1px solid gray;border-radius:2px;}
+.attr.active,.attr2.active{ border:1px solid orange;}
+
+.xzoom-container img{
+  width: 82%;
+  height: 90%;
+}
+.xzoom-thumbs img{
+  width: 25% !important;
+  height: 33% !important;
+  margin-top: 0%;
+}

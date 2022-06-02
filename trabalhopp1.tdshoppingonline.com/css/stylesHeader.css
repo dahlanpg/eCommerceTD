@@ -1,0 +1,154 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Comic Sans MS;
+ }
+
+ header{
+ 	height: 15vh;
+ 	width: 100%;
+ }
+ header ul{
+ 	margin-left: 3%;
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ header ul li{
+ 	display: inline-block;
+ 	list-style-type: none;
+ 	width: 12%;
+ 	height: 100%;
+ 	float: left;
+ }
+
+header div{
+	height: 70%;
+	width: 100%;
+	margin-top: 6%;
+}
+
+#logo img{
+	width: 75%;
+	height: 15vh;
+}
+
+#cartBar img, #loginBar img{
+	width: 20%;
+}
+
+#cartBar, #loginBar, #favoritesBar{
+	margin-top: 20%;
+}
+
+#favoritesBar img{
+	height: 60%;
+	height: 4vh;
+	/*width: 27%;*/
+}
+
+#searchDiv img{
+	height: 70%;
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 5%;
+}
+
+#itensCart, #itensFavorites{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#searchDiv{
+  background-color:#2F4F4F;
+  background-color: white;
+  border:solid 1px;
+  border-radius:15px;
+  width:90%;
+  height: 40%;
+  margin-top: 6%;
+}
+
+#btn-search{
+	height: 100%;
+	box-shadow: none;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	margin-left: 6%;
+}
+
+#btn-search:focus{
+	outline-style: none;
+}
+
+
+#searchBar{
+  float:left;
+  padding-left:2%;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:100%;
+  width:80%;
+  background-color:transparent;
+}
+
+#searchBar:focus{
+	outline-style: none;
+}
+
+#item-search{
+	margin-left: 5%;
+	margin-right: 10%; 
+	width: 35%;
+}
+
+#logo{
+	margin: 0;
+	height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	#logo img{
+		height: 50px;
+		width:100%;
+	}
+	#searchDiv img{
+		margin-right: 0%;
+	}
+	#favoritesBar img{
+		height: 16px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	/* #logo img{
+		height: 50px;
+		width:100%;
+	}
+	#searchDiv img{
+		margin-right: -10%;
+	}
+	#favoritesBar img{
+		height: 16px;
+	} */
+
+	#btn-search{
+		height: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#btn-search{
+		height: 100%;
+		box-shadow: none;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		margin-left: -10%;
+	}
+}
+
+

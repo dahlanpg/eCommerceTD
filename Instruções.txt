@@ -1,0 +1,4 @@
+Dentro da pasta principal tem dois arquivos relacionados ao Bando de Dados do projeto.
+Primeiro execute o conteudo de (T&DBD.sql) para criar o banco td e as reespectivas tabelas, depois
+execute o conteúdo de (sql.txt) para adicionar produtos de exemplo.
+Pagina do admin -> admin.php

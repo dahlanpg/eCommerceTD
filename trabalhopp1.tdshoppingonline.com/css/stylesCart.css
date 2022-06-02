@@ -1,0 +1,574 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Comic Sans MS;
+ }
+
+body{
+	background-color: #f2f2f2 !important;
+}
+
+ li{
+ 	list-style-type: none;
+ 	list-style: none;
+ }
+
+ header{
+ 	height: 15vh;
+ 	width: 100%;
+ 	border: 1px solid #f2f2f2;
+ 	background-color: white !important;
+ }
+
+ header img{
+ 	height: 100%;
+ }
+
+ #cartBody{
+ 	width: 100%;
+ 	background-color: #f2f2f2;
+ 	padding-top: 0.1%;
+ }
+
+#progressBar{
+	width: 100%;
+	margin-top: 8%;
+}
+
+ #progressBar ul{
+ 	width: 75%;
+ 	background-color: #e0e0e0;
+ 	height: 4px;
+ 	margin-left: 12%;
+ 	border-radius: 10px;
+ 	margin-top: 1%;
+ }
+
+ #progressBar li{
+ 	float: left;
+ 	background-color: #e0e0e0;
+ 	width: 25%;
+ 	height: 100%;
+ }
+
+ .circleProgress{
+ 	background-color: black;
+ 	position: absolute;
+ 	width: 1.4%;
+ 	height: 3%;
+ 	margin-top: -0.6%;
+ 	border-radius: 10px;
+ }
+
+ #firstProgressLine{
+ 	background-color:  #e0e0e0;
+ 	border-radius: 10px;
+ }
+
+ #secondProgressLine{
+ 	background-color: #e0e0e0; 
+ }
+
+ #thirdProgressLine{
+ 	background-color: #e0e0e0;
+ }
+
+ #fourthProgressLine{
+ 	background-color: #e0e0e0;
+ 	border-radius: 10px;
+ }
+
+ .circleProgress1{
+ 	left: 30%;
+ 	background-color: #e0e0e0;
+ }
+
+  .circleProgress2{
+ 	left: 49%;
+ 	background-color: #e0e0e0;
+ }
+
+  .circleProgress3{
+ 	left: 68%;
+ 	background-color: #e0e0e0;
+ }
+
+ #textFirstProgress{
+ 	position: absolute;
+ 	left: 28%;
+ 	font-size: 2.4vh;
+ }
+
+#textSecondProgress{
+	position: absolute;
+	left: 45%;
+	font-size: 2.4vh;
+}
+
+#textThirdProgress{
+	position: absolute;
+	left: 65.5%;
+	font-size: 2.4vh;
+}
+
+.containerCartSubtitles{
+	background-color: white !important;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	font-size: 2.3vh;
+}
+
+.row{
+	border-bottom: 1px solid #f2f2f2; 
+}
+
+.buttons-change-stock{
+	height: 100%;
+	margin-top: 15%;
+	width: 100%;
+}
+
+.buttons-change-stock input{
+	width: 18%;
+	float: left;
+	height: 20%;
+	padding-left: 7%;
+	font-size: 2vh;
+}
+
+.buttons-change-stock button{
+	width: 15%;
+	height: 20%;
+	float: left;
+	font-size: 2vh;
+}
+
+.cartPart2 p{
+	margin-top: 4%;
+	font-size: 2.5vh;
+}
+
+.cartPart3 > p{
+	margin-top: 7%;
+}
+
+.cartPart6 > p{
+	margin-top: 5%;
+}
+
+.cartPart6 p{
+	margin-left: -25%;
+	font-size: 2.5vh;
+}
+
+.cartContainer .cartPart6 img{
+	height: 4vh !important;
+}
+
+.Sub-total-Value{
+	margin-left: 20%;
+	margin-top: 30%;
+	font-weight: bold;
+	font-size: 3vh;
+}
+
+.cartContainer{
+	background-color: white !important;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px; 
+}
+
+.productCart{
+	height: 14vh;
+	margin-top: 20%;
+}
+
+.strikedPrice{
+	text-decoration: line-through;
+	font-size: 3vh;
+}
+
+.truePrice{
+	color: red;
+	font-size: 4vh;
+	font-weight: bold;
+}
+
+.containerCartSubtitles{
+	color: blue;
+	font-weight: bold;
+}
+
+.proceedToPurchase{
+	background-color: white !important;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px; 
+	margin-top: 7%;
+}
+
+.totalPurchase{
+	color: red;
+	font-weight: bold;
+}
+
+#btn-buy{
+	padding-bottom: 5%;
+	height: 7vh;
+	width: 90%;
+	cursor: pointer;
+	border: 0;
+	background-color: white !important;
+}
+
+#btn-buy img{
+	height: 100%;
+	width: 100%;
+}
+
+#btn-buy:focus{
+	outline-style: none;
+}
+
+.rowCarouselCartPage img{
+	height: 100%;
+	width: 100%;
+}
+
+.containerCartSubtitles{
+	font-family: fantasy;
+	color: grey;
+}
+
+#btnClear span{
+	width: 10%;
+	height: 2vh;
+}
+
+#clearCartIcon{
+	width: 16%;
+	height: 80%;
+	float: right;
+	margin-left: 2%;
+}
+
+#btnClear{
+	float: right;
+	width: 17%;
+	height: 7vh;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+	.strikedPrice{
+		font-size: 10px;
+	}
+	.truePrice{
+		font-size: 12px;
+	}
+	.cartContainer .cartPart6 img{
+		height: 14px !important;
+	}
+
+	.cartContainer .cartPart1 img{
+		height: 50px;
+		width: 45px;
+		margin-left: -80%;
+	}
+
+	.containerCartSubtitles span{
+		font-size: 8px;
+	}
+	.cartContainer .cartPart2 p{
+		font-size: 11px;
+		margin-left: 10%;
+	}
+
+	.Sub-total-Value{
+		font-size: 11px;
+		margin-left: -10%;
+	}
+
+	#btn-buy{
+		width: 100%;
+		height: 20px;
+	}
+
+	.circleProgress{
+		height: 8px;
+		width: 8px;
+	}
+
+	#textSecondProgress{
+		margin-left: -5%;
+	}
+
+	.buttons-change-stock, .containerCartSubtitles .col-3 span{
+		margin-left: 35%;
+	}
+
+	.containerCartSubtitles .col-1 span{
+		margin-left: -170%;
+	}
+
+	h3{
+		font-size: 20px !important;
+	}
+
+	#logoNameHeader{
+		font-size: 14px !important;
+	}
+
+	#textFirstProgress, #textSecondProgress, #textThirdProgress{
+		font-size: 10px;
+	}
+
+	#textFirstProgress{
+		margin-left: -3%;
+	}
+
+	.buttons-change-stock input{
+		font-size: 9px !important;
+	}
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait){
+
+    .cartPart2 p{
+        font-size: 8px !important;
+        margin-left: 20% !important;
+    }
+
+    .btn-danger, .btn-success{
+        height: 3vh !important;
+    }
+
+    .btn-span{
+       font-size: 14px !important;
+       position: absolute;
+       top: 23%;
+    }
+
+    .favoriteIcon{
+        margin-top: 1% !important;
+        position: absolute;
+    }
+
+    .trashIcon{
+        margin-top: 5% !important;
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .buttons-change-stock{
+        margin-top: 30% !important;
+    }
+
+    .Sub-total-Value{
+        font-size: 8px !important; 
+        margin-left: 2% !important;
+        margin-top: 80% !important;
+    }
+
+    .inputQtd{
+        height: 3vh !important;
+    }
+
+    .rowCart{
+        height: 12vh;
+    }
+    #btnClear{
+        height: 3vh;
+        margin-right: 2%;
+    }
+
+    #discountEnd, #totalEnd, #subtotalEnd{
+        font-size: 12px !important;
+    }
+    .subtotalPurchase, .discountPurchase, .totalPurchase{
+        font-size: 10px !important;
+    }
+
+    .btn-buy{
+        height: 5vh !important;
+        right: 3%;
+    }
+
+    #spanBtnBuy{
+        font-size: 10px;
+        margin-top: -10%;
+	}
+	
+	.cartPart2 p{
+        font-size: 5px !important;
+        margin-left: 20% !important;
+    }
+
+    .btn-danger, .btn-success{
+		height: 3vh !important;
+		width: 2% !important;
+    }
+
+    .btn-span{
+       font-size: 14px !important;
+       position: absolute;
+       top: 23%;
+    }
+
+    .favoriteIcon{
+		position: absolute;
+		top: 28%;
+    }
+
+    .trashIcon{
+        position: absolute;
+        top: 49%;
+    }
+
+    .buttons-change-stock{
+		margin-top: 30% !important;
+		margin-left: 20% !important;
+    }
+
+    .Sub-total-Value{
+        font-size: 8px !important; 
+        margin-left: 2% !important;
+        margin-top: 80% !important;
+    }
+
+    .inputQtd{
+		height: 3vh !important;
+    }
+
+    .rowCart{
+        height: 12vh;
+    }
+    #btnClear{
+        height: 3vh;
+        margin-right: 2%;
+    }
+
+    #discountEnd, #totalEnd, #subtotalEnd{
+        font-size: 12px !important;
+    }
+    .subtotalPurchase, .discountPurchase, .totalPurchase{
+        font-size: 10px !important;
+    }
+
+    .btn-buy{
+        height: 8vh !important;
+		right: 3%;
+		width: 150% !important;
+    }
+
+    #spanBtnBuy{
+        font-size: 10px;
+        margin-top: -10%;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) and (orientation: portrait){
+	.productCart{
+		width: 35px !important;
+	}
+	.cartPart2 p{
+        font-size: 5px !important;
+        margin-left: 20% !important;
+    }
+
+    .btn-danger, .btn-success{
+		height: 3vh !important;
+		display: none !important;
+    }
+
+    .btn-span{
+       font-size: 14px !important;
+       position: absolute;
+       top: 23%;
+    }
+
+	.truePrice{
+		font-size: 8px;
+	}
+
+	.this{
+		display: none;
+	}
+
+	#btnClear{
+        height: 3vh;
+        margin-right: 2%;
+    }
+
+    #discountEnd, #totalEnd, #subtotalEnd{
+        font-size: 6px !important;
+    }
+    .subtotalPurchase, .discountPurchase, .totalPurchase{
+        font-size: 6px !important;
+    }
+
+    .btn-buy{
+        height: 5vh !important;
+		right: 3%;
+		width: 240% !important;
+		display: initial !important;
+    }
+
+    #spanBtnBuy{
+		position: absolute;
+		left: 40%;
+	}
+	
+	.favoriteIcon, .trashIcon{
+		width: 10px;
+		position: absolute;
+
+	}
+	.favoriteIcon{
+		top: 40%;
+	}
+
+	.trashIcon{
+		top: 70%;
+	}
+
+	.inputQtd{
+		margin-left: 20%;
+		width: 60% !important;
+	}
+	
+	.Sub-total-Value{
+		margin-left: -25% !important;
+		font-size: 8px !important;
+	}
+
+	.cartPart6{
+		margin-left: -4% !important; 
+	}
+
+	.rowCart{
+		width: 100% !important;
+	}
+
+
+	.part5, .part3{
+		display: none !important;
+	}
+
+	.part4{
+		margin-left: 18%;
+	}
+
+	#textFirstProgress, #textSecondProgress, #textThirdProgress{
+		font-size: 8px !important;
+	}
+
+	.proceedToPurchase .row{
+		padding-top: 2%;
+		margin-left: 14% !important;
+	}
+}
+
+

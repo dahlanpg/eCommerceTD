@@ -1,0 +1,191 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Comic Sans MS;
+ }
+
+body{
+	background-color: #f2f2f2 !important;
+}
+
+ li{
+ 	list-style-type: none;
+ 	list-style: none;
+ }
+
+ header{
+ 	height: 15vh;
+ 	width: 100%;
+ 	border: 1px solid #f2f2f2;
+ 	background-color: white !important;
+ }
+
+ header img{
+ 	height: 100%;
+ }
+
+ .menuMyAccount{
+ 	margin-top: 1%;
+ 	background-color: #ffda00;
+ 	color: black;
+ 	border-radius: 5px;
+ }
+
+ .registerProduct .container, .refreshProduct .container{
+ 	width: 50% !important;
+ }
+
+ .menuMyAccount a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ .menuMyAccount a:link{
+ 	text-decoration: none;
+ }
+
+ .selected{
+ 	border-bottom: 2px solid black;
+ }
+
+ .flap{
+ 	display: none;
+ }
+
+ .currentFlap{
+ 	display: initial;
+ }
+
+ .rowMyAccountPage a{
+ 	font-size: 2.7vh;
+ }
+
+ .wishDetailsImg{
+ 	padding-left: 12%;
+ 	height: 5vh;
+ 	cursor: pointer;
+ }
+
+ .listClients .container{
+ 	width: 50%;
+ }
+
+.clientDetailsImg{
+ 	padding-left: 43%;
+ 	height: 6vh;
+ 	cursor: pointer;
+ }
+
+.clientRemoveImg{
+	padding-left: 38%;
+ 	height: 6vh;
+ 	cursor: pointer;
+}
+
+ .listBanner .container{
+ 	width: 60%,!important ;
+ 	margin-top: 2%; 
+ 	/*border:1px solid grey;*/
+    height: 60%,!important;
+ }
+
+ .listbanner input, label{
+ 	margin-left: 4%; 
+ }
+
+ input[type='file'] {
+	display: none
+}
+
+#formbanner1, #formbanner2, #formbanner3, #formbanner4{
+	margin-left: 30%;
+}
+#formbanner1 label, #formbanner2 label, #formbanner3 label, #formbanner4 label{
+	background-color: #ffda00;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	padding: 8px 20px;
+	margin-left: 18%;
+} 
+.addImg{
+	background-color: #ffda00 !important;
+}
+
+.imgRegisterLabel{
+	background-color: #ffda00;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	padding: 6px 20px;
+} 
+
+/* .formImgRegister{
+	margin-top: -17%;
+	margin-left: -4%;
+} */
+
+.banner{
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+}
+
+.imgP{
+	/* float: left; */
+	margin-bottom: 10%;
+	height: 5%;
+	width: 5%;
+}
+
+#seeProductIcon{
+	width: 50%;
+	margin-left: 30%;
+	cursor: pointer;
+}
+
+#trashIcon{
+	width: 45%;
+	height: 6.3%;
+	margin-left: 30%;
+	cursor: pointer;
+}
+
+#priceIcon{
+	width: 60%;
+	height: 6.3%;
+	margin-left:27%;
+	cursor: pointer; 
+}
+
+#btn-register{
+	margin-top: 5%;
+}
+
+#inputPrice{
+	width: 30%;
+	float: right;
+	margin-right: 30%;
+	height: 30%;
+	height: 30px;
+}
+
+#titleModalPrice{
+	margin-left: 33%;
+}
+
+#labelPrice{
+	margin-left: 20%;
+}
+
+#soldTd, #qtdTd{
+	margin-left: 40%;
+}
+
+#stockIcon{
+	width: 45%;
+	height: 6.3%;
+	margin-left: 30%;
+	cursor: pointer;
+}
+

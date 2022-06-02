@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px) and (orientation: portrait){
+	#logoHeadBasic{
+		height: 6vh;
+    }
+    #logoNameHeader{
+        font-size: 13px !important;
+    }
+    #labelMyAccount{
+        font-size: 10px !important;
+    }
+    #imgMyAccount{
+        height: 4vh !important;
+    }
+
+    header{
+        height: 8vh;
+    }
+
+    #copyHead{
+        font-size: 8px !important;
+    }
+
+    #logoImg{
+        height: 6vh !important;
+    }
+
+    #searchBar::-webkit-input-placeholder{
+        font-size: 10px;
+        margin-left: 2%;
+    }
+    #searchBar::-moz-placeholder {
+        font-size: 10px;
+        margin-left: 2%;
+    }​
+
+}
